@@ -3,3 +3,4 @@
  */
 
 export * from './lib/jsoneditor.component';
+export * from './lib/jsoneditoroptions';
