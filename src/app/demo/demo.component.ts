@@ -6,7 +6,7 @@ import { ShowComponent } from './show.component';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  standalone: true,
+  standalone: false,
   imports: [CommonModule, ReactiveFormsModule, JsonEditorComponent, ShowComponent],
   selector: 'app-demo',
   templateUrl: './demo.component.html',
