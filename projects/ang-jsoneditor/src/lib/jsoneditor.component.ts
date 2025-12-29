@@ -22,7 +22,7 @@ import { IError, JsonEditorMode, JsonEditorOptions, JsonEditorTreeNode } from '.
 @Component({
   // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'json-editor',
-  standalone: false,
+  standalone: true,
   template: `<div [id]="id" #jsonEditorContainer></div>`,
   providers: [
     {
