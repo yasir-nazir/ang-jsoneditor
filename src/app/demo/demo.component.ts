@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { JsonEditorComponent, JsonEditorOptions } from '../../../projects/ang-jsoneditor/src/public-api';
+import { InfinityJsonEditorComponent, JsonEditorOptions } from '../../../projects/ang-jsoneditor/src/public-api';
 import { ReactiveFormsModule, UntypedFormBuilder } from '@angular/forms';
 import { schema } from './schema.value';
 import { ShowComponent } from './show.component';
@@ -7,15 +7,15 @@ import { CommonModule } from '@angular/common';
 
 @Component({
   standalone: true,
-  imports: [CommonModule, ReactiveFormsModule, JsonEditorComponent, ShowComponent],
+  imports: [CommonModule, ReactiveFormsModule, InfinityJsonEditorComponent, ShowComponent],
   selector: 'app-demo',
   templateUrl: './demo.component.html',
   styleUrls: ['./demo.component.css']
 })
 export class DemoComponent implements OnInit {
 
-  @ViewChild('editor', { static: false }) editor: JsonEditorComponent;
-  @ViewChild('editorTwo', { static: false }) editorTwo: JsonEditorComponent;
+  @ViewChild('editor', { static: false }) editor: InfinityJsonEditorComponent;
+  @ViewChild('editorTwo', { static: false }) editorTwo: InfinityJsonEditorComponent;
 
   public editorOptions: JsonEditorOptions;
   public data: any;

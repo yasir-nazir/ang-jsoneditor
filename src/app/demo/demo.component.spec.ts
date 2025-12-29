@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
-import { JsonEditorComponent } from 'ang-jsoneditor';
+import { InfinityJsonEditorComponent } from 'ang-jsoneditor';
 import { DemoComponent } from './demo.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
@@ -10,7 +10,7 @@ describe('DemoComponent', () => {
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       imports: [
-        JsonEditorComponent,
+        InfinityJsonEditorComponent,
         FormsModule,
         ReactiveFormsModule,
         DemoComponent

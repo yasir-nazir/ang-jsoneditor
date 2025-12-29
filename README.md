@@ -32,19 +32,19 @@ Import the standalone component as below:
 
 ```ts
 import { Component, ViewChild } from '@angular/core';
-import { JsonEditorComponent, JsonEditorOptions } from 'ang-jsoneditor';
+import { InfinityJsonEditorComponent, JsonEditorOptions } from 'ang-jsoneditor';
 
 @Component({
   selector: 'app-root',
   template: '<json-editor [options]="editorOptions" [data]="data"></json-editor>',
   styleUrls: ['./app.component.css'],
-  imports: [JsonEditorComponent]
+  imports: [InfinityJsonEditorComponent]
 })
 export class AppComponent {
   public editorOptions: JsonEditorOptions;
   public data: any;
   // optional
-  @ViewChild(JsonEditorComponent, { static: false }) editor: JsonEditorComponent;
+  @ViewChild(InfinityJsonEditorComponent, { static: false }) editor: InfinityJsonEditorComponent;
 
   constructor() {
     this.editorOptions = new JsonEditorOptions()
