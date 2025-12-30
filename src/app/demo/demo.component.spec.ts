@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
-import { InfinityJsonEditorComponent } from 'ang-jsoneditor';
+import { InfinityJsonEditorComponent } from 'ees-jsoneditor';
 import { DemoComponent } from './demo.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 

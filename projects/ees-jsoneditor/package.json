@@ -1,17 +1,17 @@
 {
-  "name": "ang-jsoneditor",
+  "name": "ees-jsoneditor",
   "version": "4.0.1",
   "license": "MIT",
-  "homepage": "https://github.com/mariohmol/ang-jsoneditor",
+  "homepage": "https://github.com/mariohmol/ees-jsoneditor",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mariohmol/ang-jsoneditor.git"
+    "url": "https://github.com/mariohmol/ees-jsoneditor.git"
   },
   "author": "Mario Mol <mariohmol@gmail.com>, Manish Sodavadiya <manish_it56@yahoo.com>",
   "keywords": [
     "angular",
     "jsoneditor",
-    "ang-jsoneditor",
+    "ees-jsoneditor",
     "ng-jsoneditor",
     "angular"
   ],

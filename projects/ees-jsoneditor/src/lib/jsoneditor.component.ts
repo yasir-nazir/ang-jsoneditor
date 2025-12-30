@@ -78,7 +78,7 @@ export class InfinityJsonEditorComponent implements ControlValueAccessor, OnInit
     }
     const optionsCopy = Object.assign({}, optionsBefore);
 
-    // expandAll is an option only supported by ang-jsoneditor and not by the the original jsoneditor.
+    // expandAll is an option only supported by ees-jsoneditor and not by the the original jsoneditor.
     delete optionsCopy.expandAll;
     if (this.debug) {
       console.log(optionsCopy, this._data);

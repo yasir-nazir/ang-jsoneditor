@@ -1,10 +1,10 @@
 # Angular Json Editor
 
-[![Build Status](https://travis-ci.org/mariohmol/ang-jsoneditor.svg?branch=master)](https://travis-ci.org/mariohmol/ang-jsoneditor)
+[![Build Status](https://travis-ci.org/mariohmol/ees-jsoneditor.svg?branch=master)](https://travis-ci.org/mariohmol/ees-jsoneditor)
 
 Angular Json Editor (wrapper for [jsoneditor](https://github.com/josdejong/jsoneditor)). View/Edit Json file with formatting.
 
-[StackBlitz template](https://stackblitz.com/edit/ang-jsoneditor)
+[StackBlitz template](https://stackblitz.com/edit/ees-jsoneditor)
 
 Working with latest Angular 20.
 
@@ -15,7 +15,7 @@ Working with latest Angular 20.
 To install this library with npm, run below command:
 
 ```sh
-$ npm install --save jsoneditor ang-jsoneditor
+$ npm install --save jsoneditor ees-jsoneditor
 ```
 
 Example:
@@ -32,7 +32,7 @@ Import the standalone component as below:
 
 ```ts
 import { Component, ViewChild } from '@angular/core';
-import { InfinityJsonEditorComponent, JsonEditorOptions } from 'ang-jsoneditor';
+import { InfinityJsonEditorComponent, JsonEditorOptions } from 'ees-jsoneditor';
 
 @Component({
   selector: 'app-root',
@@ -136,12 +136,12 @@ If you find youself trying to use an custom option that is not mapped here, you 
 let editorOptions: JsonEditorOptions = new JsonEditorOptions(); (<any>this.editorOptions).templates = [{menu options objects as in json editor documentation}]
 ```
 
-See the [issue](https://github.com/mariohmol/ang-jsoneditor/issues/57)
+See the [issue](https://github.com/mariohmol/ees-jsoneditor/issues/57)
 
 ## Internet Explorer
 
 If you want to support IE, please follow this guide:
-* https://github.com/mariohmol/ang-jsoneditor/issues/44#issuecomment-508650610
+* https://github.com/mariohmol/ees-jsoneditor/issues/44#issuecomment-508650610
 
 ## Multiple editors
 
@@ -166,7 +166,7 @@ makeOptions = () => {
 Demo component files are included in Git Project.
 
 Demo Project with a lot of different implementations (ngInit, change event and others):
-[https://github.com/mariohmol/ang-jsoneditor/tree/master/src/app/demo)
+[https://github.com/mariohmol/ees-jsoneditor/tree/master/src/app/demo)
 
 When publishing it to npm, look over this docs: https://docs.npmjs.com/misc/developers
 
